@@ -10,8 +10,8 @@ module.exports = {
         primary: "#d396cf",
         secondary: "#032940",
       },
-      backgroundImage: {
-        heroWave: "url('/header.svg')",
+      screens: {
+        xs: "480px",
       },
     },
   },
