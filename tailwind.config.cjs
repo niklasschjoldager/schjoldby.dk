@@ -10,10 +10,13 @@ module.exports = {
         primary: "#d396cf",
         secondary: "#032940",
       },
+      backgroundImage: {
+        heroWave: "url('/header.svg')",
+      },
     },
   },
-  corePlugins: {
-    fontSize: false,
-  },
-  plugins: [require("tailwindcss-fluid-type")],
+  // corePlugins: {
+  //   fontSize: false,
+  // },
+  // plugins: [require("tailwindcss-fluid-type")],
 };
