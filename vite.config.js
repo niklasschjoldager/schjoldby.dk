@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   base: "/schjoldby.dk/",
   build: {
-    // outDir: "dist/schjoldby.dk",
+    outDir: "dist/schjoldby.dk",
     assetsDir: "schjoldby.dk/assets",
   },
 });
